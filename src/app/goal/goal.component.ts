@@ -8,7 +8,11 @@ import { Goal } from '../goal';
 })
 export class GoalComponent  {
 
+  goals:Goal[];
 
+  constructor( goalService:GoalService ) {
+    this.goals = goalService.getGoals()
+  }
   addNewGoal(goal: Goal){
     let goalLength = this.goals.length;
     goal.id = goalLength+1;
