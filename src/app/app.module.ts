@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { GoalComponent } from './goal/goal.component';
 import { GoalDetailComponent } from './goal-detail/goal-detail.component';
 import { StrikethroughDirective } from './strikethrough.directive';
+import { DateCountPipe } from './date-count.pipe';
 
 
 
@@ -16,6 +17,7 @@ import { StrikethroughDirective } from './strikethrough.directive';
     GoalComponent,
     GoalDetailComponent,
     StrikethroughDirective,
+    DateCountPipe,
     
     
     
