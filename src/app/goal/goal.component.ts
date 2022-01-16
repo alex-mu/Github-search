@@ -6,7 +6,7 @@ import { Goal } from '../goal';
   templateUrl: './goal.component.html',
   styleUrls: ['./goal.component.css']
 })
-export class GoalComponent implements OnInit {
+export class GoalComponent  {
 
   goals: Goal[] = [
     new Goal(1, 'Watch finding Nemo', 'Find an online version and watch merlin find his son'),
@@ -19,10 +19,11 @@ export class GoalComponent implements OnInit {
   toggleDetails(index){
     this.goals[index].showDescription = !this.goals[index].showDescription;
   }
-
-  constructor() { }
-
-  ngOnInit(): void {
+  completeGoal(isComplete, index){
+    if (isComplete) {
+      this.goals.splice(index,1);
+    }
   }
+
 
 }

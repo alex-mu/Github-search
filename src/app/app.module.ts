@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GoalComponent } from './goal/goal.component';
 import { GoalDetailComponent } from './goal-detail/goal-detail.component';
+import { StrikethroughDirective } from './strikethrough.directive';
 
 
 
@@ -14,6 +15,7 @@ import { GoalDetailComponent } from './goal-detail/goal-detail.component';
     AppComponent,
     GoalComponent,
     GoalDetailComponent,
+    StrikethroughDirective,
     
     
     
