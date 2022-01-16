@@ -16,10 +16,10 @@ export class GoalComponent  {
     new Goal(5,'Solve math homework','Damn Math'),
     new Goal(6,'Plot my world domination plan','Cause I am an evil overlord'),
   ];
-  toggleDetails(index){
+  toggleDetails(index:any){
     this.goals[index].showDescription = !this.goals[index].showDescription;
   }
-  completeGoal(isComplete, index){
+  completeGoal(isComplete:boolean, index:any){
     if (isComplete) {
       this.goals.splice(index,1);
     }
