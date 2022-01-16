@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
-import { UsersComponent } from './users/users.component';
+
+//import the httpClient
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -7,5 +9,12 @@ import { UsersComponent } from './users/users.component';
 export class UsersServiceService {
   getusers: any;
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
+
+  //create a function to get the users data
+  getUsers(){
+    let url = "https://api.github.com"
+
+    return this.http.get(url)
+  }
 }
