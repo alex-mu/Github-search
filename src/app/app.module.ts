@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { UserComponent } from './user/user.component';
 import { RepositoryComponent } from './repository/repository.component';
 import { OrganisationComponent } from './organisation/organisation.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 
@@ -19,6 +20,7 @@ import { OrganisationComponent } from './organisation/organisation.component';
     UserComponent,
     RepositoryComponent,
     OrganisationComponent,
+    DashboardComponent,
   
     
     
