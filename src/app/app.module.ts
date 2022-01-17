@@ -5,24 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 
-import { GoalComponent } from './goal/goal.component';
-import { GoalDetailComponent } from './goal-detail/goal-detail.component';
-import { StrikethroughDirective } from './strikethrough.directive';
-import { DateCountPipe } from './date-count.pipe';
-import { GoalFormComponent } from './goal-form/goal-form.component';
-import { FormsModule } from '@angular/forms';
+
+
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    GoalComponent,
-    GoalDetailComponent,
-    StrikethroughDirective,
-    DateCountPipe,
-    GoalFormComponent,
-    
+  
     
     
   ],
@@ -30,7 +21,7 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
