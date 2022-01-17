@@ -8,6 +8,7 @@ import { UserComponent } from './user/user.component';
 import { RepositoryComponent } from './repository/repository.component';
 import { OrganisationComponent } from './organisation/organisation.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { TruncatePipe } from './truncate.pipe';
 
 
 
@@ -21,6 +22,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     RepositoryComponent,
     OrganisationComponent,
     DashboardComponent,
+    TruncatePipe,
   
     
     
