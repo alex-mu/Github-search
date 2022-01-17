@@ -9,6 +9,7 @@ import { RepositoryComponent } from './repository/repository.component';
 import { OrganisationComponent } from './organisation/organisation.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { TruncatePipe } from './truncate.pipe';
+import { GithubServiceService } from './github-service.service';
 
 
 
@@ -18,11 +19,13 @@ import { TruncatePipe } from './truncate.pipe';
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent,
     RepositoryComponent,
     OrganisationComponent,
     DashboardComponent,
     TruncatePipe,
+    UserComponent,
+   
+    
   
     
     
@@ -32,8 +35,11 @@ import { TruncatePipe } from './truncate.pipe';
     AppRoutingModule,
     HttpClientModule,
     
+    
+    
+    
   ],
-  providers: [],
+  providers: [ GithubServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

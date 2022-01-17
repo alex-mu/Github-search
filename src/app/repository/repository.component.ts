@@ -1,3 +1,5 @@
+import { SimpleChanges } from '@angular/core';
+import { Input } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RepositoryComponent implements OnInit {
 
-  constructor() { }
+  @Input() passData: any;
+  arrayData: any;
 
-  ngOnInit(): void {
-  }
+constructor() {
+}
+
+ngOnInit() {
+}
+
+ngOnChanges(changes: SimpleChanges) {
+if (changes['passData']) {
+this.arrayData = this.passData;
+}
+}
 
 }
