@@ -1,5 +1,45 @@
-# GithubSearch
+# Github-Search
+This is a simple app built in angular to display use of an Api and how it calls data from a different site
 
+## Author
+Alexander Mureithi
+
+## Software used
+The app has been built on the Angular Framework and utilizes the following:
+1. Html
+2. Css
+3. Typescript
+
+## Api
+The app consumes the github REST api that essentially calls github data.
+
+## Contribution
+The site can be viewed at https://alex-mu.github.io/Github-search/ and to become a contribuyor you can clone this link https://github.com/alex-mu/Github-search.git and the reach out to the email alexndegwa46@gmail.com for further information and questions.
+
+## License
+MIT License
+
+Copyright (c) 2022 Alexander Mureithi
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+# Further information
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.1.
 
 ## Development server
